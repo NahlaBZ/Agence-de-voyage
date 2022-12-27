@@ -1,0 +1,79 @@
+header{
+display: flex;
+
+.logo {
+    position: absolute;
+    width: 61.09px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+.hebergement {   
+    
+position: absolute;
+left: 80%;
+right: 90%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #0065FC;
+}
+
+.activites {
+position: absolute;
+left: 83.46%;
+right: 0px;
+top: 0px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #000000;
+} 
+
+
+}
+
+.H2 {
+
+    position: absolute;
+    width: 575px;
+    height: 26px;
+    left: 55px;
+    top: 126px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+
+}
+.H3 {
+    position: absolute;
+    left: 20.18%;
+    right: 35.54%;
+    top: 28.57%;
+    bottom: 28.57%;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+justify-content: center;
+    color: #000000;
+
+}
