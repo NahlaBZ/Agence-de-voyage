@@ -1,0 +1,374 @@
+    *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    -webkit-scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+.Conteneur {
+	max-width: 1400px;
+    width: 94%;
+	margin: auto;
+}
+button{
+    cursor: pointer;
+}
+
+
+/* Animation Figure */
+figure:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+/*** HEADER STYLE ***/
+.ContenuHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.logo img{
+    width: 60px;
+}
+.ContenuHeader ul {
+    display: flex;
+}
+.ContenuHeader ul li {
+    position: relative;
+}
+.ContenuHeader ul li a {
+    font-size: 16px;
+    color: black;
+    margin: 0 15px;
+    padding-top: 10px;
+}
+
+/* hover button style */
+.ContenuHeader ul li a::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #0065FC;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    display: none;
+}
+.ContenuHeader ul li a:hover{
+    color: #0065FC;
+}
+.ContenuHeader ul li a:hover::before{
+    display: block;
+}
+
+/*** Main ***/
+/* Section Recherche */
+.Recherche{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.Recherche h2{
+    font-size: 22px;
+}
+.Recherche p {
+    margin-top: 10px;
+}
+.FormulaireRecherche{
+    display: flex;
+    margin-top: 20px;
+}
+.FormulaireRecherche .IconeLocalisation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 49px;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+input[type="search"]{
+    width: 250px;
+    height: 49px;
+    text-align: center;
+    border: 1px solid #F2F2F2;
+}
+input::placeholder {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+.FormulaireRecherche input[type="button"]{
+    width: 132px;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+    background: #0065FC;
+    color: white;
+    font-size: 18px;
+    line-height: 21px; ;
+}
+.FormulaireRecherche button{
+    display: none;
+    width: 49px;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    background: #0065FC;
+    color: white;
+}
+
+/* Section Filtre */
+.Filtres{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.BoutonsFiltres{
+    display: flex;
+}
+.Filtres h1{
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0 10px;
+}
+.Filtres button {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 0 10px;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    background-color: white;
+}
+.Filtres button:hover{
+    background-color: #DEEBFF;
+}
+.Filtres button i {
+    margin-right: 15px;
+    color: #0065FC;
+}
+
+/* Bloc info */
+.BlocInfo{
+    display: flex;
+    align-items: center;
+    margin: 30px 20px 20px 10px;
+}
+.BlocInfo span{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.BlocInfo span i {
+    color: #0065FC;
+}
+
+/* Section Hébergements */
+#Hebergements{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+.HebergementsMarseille{
+    width:65%;
+    height: 100%;
+    background: #F2F2F2;
+    border-radius: 20px;
+    padding: 20px;
+}
+.HebergementsMarseille h2{
+    font-size: 22px;
+    line-height: 26px;
+}
+.ListeHebergements{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.ListeHebergements a {
+    width: 30%;
+    height: 100%;
+}
+
+/* Card */
+.card{
+    width: 100%;
+    height: 199px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 4px;
+    box-shadow: 4px 4px 5px -2px rgba(0,0,0,0.6);
+}
+.card img {
+    width: 100%;
+    height: 60%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.card figcaption{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+.card figcaption h3{
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+.card figcaption p {
+    font-size: 14px;
+    color: black;
+}
+.stars i{
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    color: #0065FC;
+}
+.stars i:last-child{
+    color: #D9D9D9;
+}
+
+.see-more{
+    display: block;
+    margin-top: 30px;
+}
+.see-more a{
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    cursor: pointer;
+}
+
+/* aside most popular */
+.mostPopular{
+    display: flex;
+    width: 30%;
+    border-radius: 20px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    background: #F2F2F2;
+}
+.shart-line{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.shart-line h2{
+    margin-top: 10px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+}
+.shart-line i{
+    height: 15.75px;
+    width: 18px;
+    color: #0065FC;
+}
+
+/* *** Most popular Card */
+.popularLodging{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.mostPopularCard{
+    display: flex;
+    height: 144px;
+    flex-direction: row;
+    border-radius: 20px;
+    padding: 4px;
+    background: #FFFFFF;
+}
+.mostPopularCard img{
+    width: 43%;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+}
+.mostPopularCard figcaption{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+}
+.mostPopularCard figcaption h3{
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.mostPopularCard figcaption p{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #000000;
+}
+.mostPopularCard figcaption .stars{
+    position: absolute;
+    bottom: 1px;
+}
+
+/* section Activity */
+#activity{
+    margin-top: 30px;
+}
+#activity h2{
+    font-size: 22px;
+    line-height: 26px;
+}
+.theActivities{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.theActivities a{
+    width: 100%;
+}
+.activityCard{
+    height: 444.5px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px -2px rgba(0,0,0,0.6);
+}
+.activityCard img{
+    width: 100%;
+    height: 90%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.activityCard figcaption{
+    display: flex;
+    height:10%;
+    align-items: center;
+}
+.activityCard figcaption h3{
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
