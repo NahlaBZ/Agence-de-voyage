@@ -3,7 +3,7 @@
         padding: 0;
         width: 100%;
     }
-    .Recherche, .Filtres, .BlocInfo, #activity{
+    .Recherche, .Filtres, .BlocInfo, #activite{
         padding: 0 5%;
     }
     
@@ -68,16 +68,16 @@
         gap: 20px;
         padding: 0;
     }
-    .popularLodging{
+    .Hebergementpopulaire{
         flex-direction: column;
     }
-    .popularLodging a{
+    .Hebergementpopulaire a{
         width: 100%;
         margin-bottom: 10px;
     }
   
     /* **** */
-    .HebergementsMarseille, .mostPopular{
+    .HebergementsMarseille, .Pluspopulaire{
         border-radius: 0px;
     }
     .HebergementsMarseille{
@@ -90,32 +90,29 @@
         width: 100%;
     }
     /*  */
-    #activity{
+    .Activite{
         margin-top: 80px;
     }
-    .theActivities{
+    .Activites{
         flex-direction: column;
     }
-    .navBottom{
-        flex-direction: column;
-    }
-    .activityCard{
+    
+    
+    .ActiviteCarte{
         height: 199px;
     }
-    .activityCard img{
+    .Activitecarte img{
         height: 70%;
     }
-    .activityCard figcaption{
-        height: 30%;
+    .ActiviteCarte figcaption{
+        height: 10%;
     }
     /* ** */
   
-    .see-more, .see-more a{
+    .Afficherplus, .Afficherplus a{
         display: none;
     }
-    .see-more a{
-        display: none;
-    }
-  
    
-  }
+
+   
+   }

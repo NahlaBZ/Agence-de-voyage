@@ -12,7 +12,7 @@ html{
     -webkit-scroll-behavior: smooth;
     scroll-behavior: smooth;
 }
-.Conteneur {
+.Conteneur{
 	max-width: 1400px;
     width: 94%;
 	margin: auto;
@@ -22,13 +22,7 @@ button{
 }
 
 
-/* Animation Figure */
-figure:hover{
-    transform: scale(1.1);
-    transition: all .2s ease-in-out;
-}
 
-/*** HEADER STYLE ***/
 .ContenuHeader{
     display: flex;
     justify-content: space-between;
@@ -50,7 +44,7 @@ figure:hover{
     padding-top: 10px;
 }
 
-/* hover button style */
+
 .ContenuHeader ul li a::before{
     content: "";
     width: 100%;
@@ -68,8 +62,7 @@ figure:hover{
     display: block;
 }
 
-/*** Main ***/
-/* Section Recherche */
+
 .Recherche{
     display: flex;
     flex-direction: column;
@@ -94,6 +87,7 @@ figure:hover{
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
 }
+
 input[type="search"]{
     width: 250px;
     height: 49px;
@@ -124,7 +118,7 @@ input::placeholder {
     color: white;
 }
 
-/* Section Filtre */
+
 .Filtres{
     display: flex;
     align-items: center;
@@ -159,7 +153,7 @@ input::placeholder {
     color: #0065FC;
 }
 
-/* Bloc info */
+
 .BlocInfo{
     display: flex;
     align-items: center;
@@ -179,7 +173,7 @@ input::placeholder {
     color: #0065FC;
 }
 
-/* Section Hébergements */
+
 #Hebergements{
     display: flex;
     justify-content: space-between;
@@ -207,8 +201,8 @@ input::placeholder {
     height: 100%;
 }
 
-/* Card */
-.card{
+
+.carte{
     width: 100%;
     height: 199px;
     background: #FFFFFF;
@@ -217,13 +211,13 @@ input::placeholder {
     padding: 4px;
     box-shadow: 4px 4px 5px -2px rgba(0,0,0,0.6);
 }
-.card img {
+.carte img {
     width: 100%;
     height: 60%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
-.card figcaption{
+.carte figcaption{
     width: 100%;
     height: 40%;
     display: flex;
@@ -231,38 +225,38 @@ input::placeholder {
     justify-content: space-evenly;
     margin-left: 10px;
 }
-.card figcaption h3{
+.carte figcaption h3{
     font-size: 16px;
     line-height: 19px;
     color: black;
 }
-.card figcaption p {
+.carte figcaption p {
     font-size: 14px;
     color: black;
 }
-.stars i{
+.Etoile i{
     width: 12px;
     height: 12px;
     margin-right: 5px;
     color: #0065FC;
 }
-.stars i:last-child{
+.Etoile i:last-child{
     color: #D9D9D9;
 }
 
-.see-more{
+.Afficherplus{
     display: block;
     margin-top: 30px;
 }
-.see-more a{
+.Afficherplus a{
     font-size: 18px;
     line-height: 21px;
     color: #000000;
     cursor: pointer;
 }
 
-/* aside most popular */
-.mostPopular{
+
+.Pluspopulaire{
     display: flex;
     width: 30%;
     border-radius: 20px;
@@ -289,15 +283,15 @@ input::placeholder {
     color: #0065FC;
 }
 
-/* *** Most popular Card */
-.popularLodging{
+
+.Hebergementpopulaire{
     display: flex;
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 20px;
 }
-.mostPopularCard{
+.PluspopulaireCarte{
     display: flex;
     height: 144px;
     flex-direction: row;
@@ -305,67 +299,67 @@ input::placeholder {
     padding: 4px;
     background: #FFFFFF;
 }
-.mostPopularCard img{
+.PluspopulaireCarte img{
     width: 43%;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
 }
-.mostPopularCard figcaption{
+.PluspopulaireCarte figcaption{
     display: flex;
     flex-direction: column;
     padding: 10px;
     position: relative;
 }
-.mostPopularCard figcaption h3{
+.PluspopulaireCarte figcaption h3{
     font-size: 16px;
     line-height: 19px;
     color: #000000;
 }
-.mostPopularCard figcaption p{
+.PluspopulaireCarte figcaption p{
     margin-top: 5px;
     font-size: 14px;
     color: #000000;
 }
-.mostPopularCard figcaption .stars{
+.PluspopulaireCarte figcaption .Etoile{
     position: absolute;
     bottom: 1px;
 }
 
-/* section Activity */
-#activity{
+
+#Activite{
     margin-top: 30px;
 }
-#activity h2{
+#Activite h2{
     font-size: 22px;
     line-height: 26px;
 }
-.theActivities{
+.Activites{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
     gap: 20px;
 }
-.theActivities a{
+.Activites a{
     width: 100%;
 }
-.activityCard{
+.ActiviteCarte{
     height: 444.5px;
     border-radius: 20px;
     box-shadow: 4px 4px 5px -2px rgba(0,0,0,0.6);
 }
-.activityCard img{
+.ActiviteCarte img{
     width: 100%;
     height: 90%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
-.activityCard figcaption{
+.ActiviteCarte figcaption{
     display: flex;
     height:10%;
     align-items: center;
 }
-.activityCard figcaption h3{
+.ActiviteCarte figcaption h3{
     margin-left: 20px;
     font-size: 16px;
     line-height: 19px;

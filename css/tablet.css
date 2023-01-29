@@ -16,33 +16,33 @@
     }
   
     /* *** */
-    .mostPopular{
+    .Pluspopulaire{
         width: 100%;
         margin-top: 30px;
     }
-    .mostPopularCard figcaption h3{
+    .Pluspopulairecarte figcaption h3{
         line-height: 16px;
     }
-    .popularLodging{
+    .Hebergementpopulaire{
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
     }
-    .popularLodging a{
+    .Hebergementpopulaire a{
         width: 32%;
     }
   
     /* *** */
-    .activityCard{
+    .ActiviteCarte{
         height: 280px;
     }
-    .activityCard img{
+    .ActiviteCarte img{
         height: 85%;
     }
-    .activityCard figcaption{
+    .ActiviteCarte figcaption{
         height: 15%;
     }
-    .activityCard figcaption h3{
+    .ActiviteCarte figcaption h3{
         margin-left: 16px;
         
     }
