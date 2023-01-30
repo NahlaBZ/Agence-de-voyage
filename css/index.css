@@ -29,7 +29,7 @@ button{
     margin-top: 20px;
 }
 .logo img{
-    width: 60px;
+    width: 61px;
 }
 .ContenuHeader ul {
     display: flex;
@@ -130,7 +130,6 @@ input::placeholder {
 .Filtres h1{
     font-size: 18px;
     line-height: 21px;
-    margin: 0 10px;
 }
 .Filtres button {
     display: flex;
@@ -143,14 +142,14 @@ input::placeholder {
     padding: 15px;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
-    background-color: white;
+    background-color: white ;
 }
 .Filtres button:hover{
     background-color: #DEEBFF;
 }
 .Filtres button i {
     margin-right: 15px;
-    color: #0065FC;
+    color: #0065FC ;
 }
 
 
@@ -167,7 +166,7 @@ input::placeholder {
     align-items: center;
     border: 1px solid #D9D9D9;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 11px;
 }
 .BlocInfo span i {
     color: #0065FC;
@@ -265,19 +264,19 @@ input::placeholder {
     align-items: center;
     background: #F2F2F2;
 }
-.shart-line{
+.Titre{
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
 }
-.shart-line h2{
+.Titre h2{
     margin-top: 10px;
     font-size: 22px;
     line-height: 26px;
     font-weight: 700;
 }
-.shart-line i{
+.Titre i{
     height: 15.75px;
     width: 18px;
     color: #0065FC;
@@ -366,3 +365,34 @@ input::placeholder {
     color: #000000;
 }
 
+footer{
+    display: flex;
+    position: relative;
+    top: 50px;
+    background: #F2F2F2;
+
+}
+footer .piedpage{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+footer .piedpage div{
+    margin-top: 40px;
+}
+footer .piedpage nav{
+    display: flex;
+    flex-direction: column;
+}
+footer div h3{
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+footer nav a{
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    color: #000000;
+}

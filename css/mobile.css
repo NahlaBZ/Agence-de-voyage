@@ -28,7 +28,7 @@
         top: 40px;
     }
   
-    /* *** à changer */
+    
     .Filtres{
         align-items: baseline;
         flex-direction: column;
@@ -54,6 +54,7 @@
     /* *** */
     .FormulaireRecherche button{
         display: block;
+
     }
     .FormulaireRecherche input[type="button"]{
         display: none;
@@ -113,6 +114,13 @@
         display: none;
     }
    
-
+    footer{
+        width: 100%;
+    }
+    .piedpage{
+        flex-direction: column;
+        }
+        
+    
    
    }
