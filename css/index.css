@@ -22,8 +22,9 @@ button{
 }
 
 
+ /* ENTETE */
 
-.ContenuHeader{
+.Contenu-Header{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -31,21 +32,19 @@ button{
 .logo img{
     width: 61px;
 }
-.ContenuHeader ul {
+.Contenu-Header ul {
     display: flex;
 }
-.ContenuHeader ul li {
+.Contenu-Header ul li {
     position: relative;
 }
-.ContenuHeader ul li a {
+.Contenu-Header ul li a {
     font-size: 16px;
     color: black;
     margin: 0 15px;
     padding-top: 10px;
 }
-
-
-.ContenuHeader ul li a::before{
+.Contenu-Header ul li a::before{
     content: "";
     width: 100%;
     height: 2px;
@@ -55,13 +54,15 @@ button{
     left: 0px;
     display: none;
 }
-.ContenuHeader ul li a:hover{
+.Contenu-Header ul li a:hover{
     color: #0065FC;
 }
-.ContenuHeader ul li a:hover::before{
+.Contenu-Header ul li a:hover::before{
     display: block;
 }
 
+
+ /* RECHERCHE */
 
 .Recherche{
     display: flex;
@@ -74,11 +75,11 @@ button{
 .Recherche p {
     margin-top: 10px;
 }
-.FormulaireRecherche{
+.Formulaire-Recherche{
     display: flex;
     margin-top: 20px;
 }
-.FormulaireRecherche .IconeLocalisation{
+.Formulaire-Recherche .IconeLocalisation{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +88,6 @@ button{
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
 }
-
 input[type="search"]{
     width: 250px;
     height: 49px;
@@ -99,7 +99,7 @@ input::placeholder {
     font-size: 18px;
     line-height: 21px;
 }
-.FormulaireRecherche input[type="button"]{
+.Formulaire-Recherche input[type="button"]{
     width: 132px;
     border: none;
     border-radius: 0px 15px 15px 0px;
@@ -109,7 +109,7 @@ input::placeholder {
     font-size: 18px;
     line-height: 21px; ;
 }
-.FormulaireRecherche button{
+.Formulaire-Recherche button{
     display: none;
     width: 49px;
     border: none;
@@ -119,12 +119,14 @@ input::placeholder {
 }
 
 
+ /* FILTRES */
+
 .Filtres{
     display: flex;
     align-items: center;
     margin-top: 30px;
 }
-.BoutonsFiltres{
+.Boutons-Filtres{
     display: flex;
 }
 .Filtres h1{
@@ -151,14 +153,12 @@ input::placeholder {
     margin-right: 15px;
     color: #0065FC ;
 }
-
-
-.BlocInfo{
+.Bloc-Info{
     display: flex;
     align-items: center;
     margin: 30px 20px 20px 10px;
 }
-.BlocInfo span{
+.Bloc-Info span{
     width: 24px;
     height: 24px;
     display: flex;
@@ -168,39 +168,40 @@ input::placeholder {
     border-radius: 50%;
     margin-right: 11px;
 }
-.BlocInfo span i {
+.Bloc-Info span i {
     color: #0065FC;
 }
 
+
+ /* HEBERGEMENTS */
 
 #Hebergements{
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 10px;
+   
 }
-.HebergementsMarseille{
+.Hebergements-Marseille{
     width:65%;
     height: 100%;
     background: #F2F2F2;
     border-radius: 20px;
     padding: 20px;
 }
-.HebergementsMarseille h2{
+.Hebergements-Marseille h2{
     font-size: 22px;
     line-height: 26px;
 }
-.ListeHebergements{
+.Liste-Hebergements{
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
 }
-.ListeHebergements a {
+.Liste-Hebergements a {
     width: 30%;
     height: 100%;
 }
-
-
 .carte{
     width: 100%;
     height: 199px;
@@ -242,20 +243,22 @@ input::placeholder {
 .Etoile i:last-child{
     color: #D9D9D9;
 }
-
-.Afficherplus{
+.Afficher-plus{
     display: block;
     margin-top: 30px;
 }
-.Afficherplus a{
+.Afficher-plus a{
     font-size: 18px;
     line-height: 21px;
     color: #000000;
     cursor: pointer;
+    font-weight: bold;
 }
 
 
-.Pluspopulaire{
+ /* PLUS POPULAIRES */
+ 
+.Plus-populaire{
     display: flex;
     width: 30%;
     border-radius: 20px;
@@ -281,16 +284,14 @@ input::placeholder {
     width: 18px;
     color: #0065FC;
 }
-
-
-.Hebergementpopulaire{
+.Hebergement-populaire{
     display: flex;
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 20px;
 }
-.PluspopulaireCarte{
+.Plus-populaire-Carte{
     display: flex;
     height: 144px;
     flex-direction: row;
@@ -298,39 +299,43 @@ input::placeholder {
     padding: 4px;
     background: #FFFFFF;
 }
-.PluspopulaireCarte img{
+.Plus-populaire-Carte img{
     width: 43%;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
 }
-.PluspopulaireCarte figcaption{
+.Plus-populaire-Carte figcaption{
     display: flex;
     flex-direction: column;
     padding: 10px;
     position: relative;
 }
-.PluspopulaireCarte figcaption h3{
+.Plus-populaire-Carte figcaption h3{
     font-size: 16px;
     line-height: 19px;
     color: #000000;
 }
-.PluspopulaireCarte figcaption p{
+.Plus-populaire-Carte figcaption p{
     margin-top: 5px;
     font-size: 14px;
     color: #000000;
 }
-.PluspopulaireCarte figcaption .Etoile{
+.Plus-populaire-Carte figcaption .Etoile{
     position: absolute;
     bottom: 1px;
 }
 
 
+ /* ACTIVITES */
+
 #Activite{
     margin-top: 30px;
 }
-#Activite h2{
-    font-size: 22px;
+#Activite span {
+    display: flex;
+    font-size: 16px;
     line-height: 26px;
+    
 }
 .Activites{
     display: flex;
@@ -342,28 +347,31 @@ input::placeholder {
 .Activites a{
     width: 100%;
 }
-.ActiviteCarte{
+.Activite-Carte{
     height: 444.5px;
     border-radius: 20px;
     box-shadow: 4px 4px 5px -2px rgba(0,0,0,0.6);
 }
-.ActiviteCarte img{
+.Activite-Carte img{
     width: 100%;
     height: 90%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
-.ActiviteCarte figcaption{
+.Activite-Carte figcaption{
     display: flex;
     height:10%;
     align-items: center;
 }
-.ActiviteCarte figcaption h3{
+.Activite-Carte figcaption h3{
     margin-left: 20px;
     font-size: 16px;
     line-height: 19px;
     color: #000000;
 }
+
+
+ /* PIED DE PAGE */
 
 footer{
     display: flex;
@@ -372,16 +380,16 @@ footer{
     background: #F2F2F2;
 
 }
-footer .piedpage{
+footer .pied-page{
     display: flex;
     width: 70%;
     justify-content: space-between;
     margin-left: 40px;
 }
-footer .piedpage div{
+footer .pied-page div{
     margin-top: 40px;
 }
-footer .piedpage nav{
+footer .pied-page span{
     display: flex;
     flex-direction: column;
 }
@@ -390,7 +398,7 @@ footer div h3{
     line-height: 21px;
     margin-bottom: 20px;
 }
-footer nav a{
+footer span a{
     font-size: 16px;
     line-height: 19px;
     margin-bottom: 10px;

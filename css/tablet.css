@@ -1,53 +1,63 @@
 @media  (max-width:992px) {
-    /* *** */
-    .BoutonsFiltres{
+   /* FILTRES */
+
+    .Boutons-Filtres{
         display: flex;
     }
-    .BoutonsFiltres button{
+    .Boutons-Filtres button{
         margin: 0 3px;
     }
   
-    /* ***** */
+
+     /* HEBERGEMENTS */
+
     #Hebergements{
         flex-direction: column;
     }
-    .HebergementsMarseille{
+    .Hebergements-Marseille{
         width: 100%;
     }
-  
-    /* *** */
-    .Pluspopulaire{
+
+   /* PLUS POPULAIRES */
+    
+
+    .Plus-populaire{
         width: 100%;
         margin-top: 30px;
     }
-    .Pluspopulairecarte figcaption h3{
+    .Plus-populaire-carte figcaption h3{
         line-height: 16px;
     }
-    .Hebergementpopulaire{
+    .Hebergement-populaire{
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
     }
-    .Hebergementpopulaire a{
+    .Hebergement-populaire a{
         width: 32%;
     }
   
-    /* *** */
-    .ActiviteCarte{
+
+    /* ACTIVITES */
+
+    .Activite-Carte{
         height: 280px;
     }
-    .ActiviteCarte img{
+    .Activite-Carte img{
         height: 85%;
     }
-    .ActiviteCarte figcaption{
+    .Activite-Carte figcaption{
         height: 15%;
     }
-    .ActiviteCarte figcaption h3{
+    .Activite-Carte figcaption h3{
         margin-left: 16px;
         
     }
 
-    footer .piedpage{
+
+     /* PIED DE PAGE */
+
+    footer .pied-page{
         width: 85%;
     }
   }
