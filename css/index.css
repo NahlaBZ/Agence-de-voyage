@@ -8,10 +8,7 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
-html{
-    -webkit-scroll-behavior: smooth;
-    scroll-behavior: smooth;
-}
+
 .Conteneur{
 	max-width: 1400px;
     width: 94%;
@@ -27,7 +24,7 @@ button{
 .Contenu-Header{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 44px;
 }
 .logo img{
     width: 61px;
@@ -42,7 +39,6 @@ button{
     font-size: 16px;
     color: black;
     margin: 0 15px;
-    padding-top: 10px;
 }
 .Contenu-Header ul li a::before{
     content: "";
@@ -50,7 +46,7 @@ button{
     height: 2px;
     background-color: #0065FC;
     position: absolute;
-    top: -20px;
+    top: -44px;
     left: 0px;
     display: none;
 }
@@ -67,13 +63,13 @@ button{
 .Recherche{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 55px;
 }
 .Recherche h2{
     font-size: 22px;
 }
 .Recherche p {
-    margin-top: 10px;
+    margin-top: 8px;
 }
 .Formulaire-Recherche{
     display: flex;
@@ -89,7 +85,7 @@ button{
     border-radius: 15px 0px 0px 15px;
 }
 input[type="search"]{
-    width: 250px;
+    width: 236px;
     height: 49px;
     text-align: center;
     border: 1px solid #F2F2F2;
@@ -101,13 +97,13 @@ input::placeholder {
 }
 .Formulaire-Recherche input[type="button"]{
     width: 132px;
-    border: none;
+    border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
     cursor: pointer;
     background: #0065FC;
     color: white;
     font-size: 18px;
-    line-height: 21px; ;
+    
 }
 .Formulaire-Recherche button{
     display: none;
@@ -124,7 +120,7 @@ input::placeholder {
 .Filtres{
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 32px;
 }
 .Boutons-Filtres{
     display: flex;
@@ -132,6 +128,7 @@ input::placeholder {
 .Filtres h1{
     font-size: 18px;
     line-height: 21px;
+    font-weight: 700;
 }
 .Filtres button {
     display: flex;
@@ -192,6 +189,8 @@ input::placeholder {
 .Hebergements-Marseille h2{
     font-size: 22px;
     line-height: 26px;
+    margin-top: 20px;
+    height: 30px;
 }
 .Liste-Hebergements{
     display: flex;
@@ -206,7 +205,7 @@ input::placeholder {
     width: 100%;
     height: 199px;
     background: #FFFFFF;
-    border-radius: 20px;
+    border-radius: 23px;
     margin-top: 20px;
     padding: 4px;
     box-shadow: 4px 4px 5px -2px rgba(0,0,0,0.6);
@@ -245,7 +244,7 @@ input::placeholder {
 }
 .Afficher-plus{
     display: block;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .Afficher-plus a{
     font-size: 18px;
@@ -274,7 +273,7 @@ input::placeholder {
     align-items: center;
 }
 .Titre h2{
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 22px;
     line-height: 26px;
     font-weight: 700;
@@ -289,7 +288,7 @@ input::placeholder {
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 26px;
 }
 .Plus-populaire-Carte{
     display: flex;
@@ -316,7 +315,7 @@ input::placeholder {
     color: #000000;
 }
 .Plus-populaire-Carte figcaption p{
-    margin-top: 5px;
+    margin-top: 7px;
     font-size: 14px;
     color: #000000;
 }
@@ -329,12 +328,13 @@ input::placeholder {
  /* ACTIVITES */
 
 #Activite{
-    margin-top: 30px;
+    margin-top: 60px;
 }
 #Activite span {
     display: flex;
     font-size: 16px;
     line-height: 26px;
+    height: 30px;
     
 }
 .Activites{
@@ -355,12 +355,12 @@ input::placeholder {
 .Activite-Carte img{
     width: 100%;
     height: 90%;
-    border-radius: 20px 20px 0 0;
+    border-radius:  0 0 20px 20px;
     object-fit: cover;
 }
 .Activite-Carte figcaption{
     display: flex;
-    height:10%;
+    height:12%;
     align-items: center;
 }
 .Activite-Carte figcaption h3{
@@ -387,7 +387,7 @@ footer .pied-page{
     margin-left: 40px;
 }
 footer .pied-page div{
-    margin-top: 40px;
+    margin-top: 45px;
 }
 footer .pied-page span{
     display: flex;

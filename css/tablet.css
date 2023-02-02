@@ -29,9 +29,11 @@
         line-height: 16px;
     }
     .Hebergement-populaire{
-        width: 100%;
+        
         flex-direction: row;
         justify-content: space-between;
+        width: 100%;
+
     }
     .Hebergement-populaire a{
         width: 32%;
