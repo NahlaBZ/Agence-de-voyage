@@ -3,7 +3,7 @@
         padding: 0;
         width: 100%;
     }
-    .Recherche, .Filtres, .BlocInfo, #activite{
+    .Recherche, .Filtres, .BlocInfo, #Activite{
         padding: 0 5%;
     }
     
@@ -98,23 +98,28 @@
 
     /* ACTIVITES */
 
-    .Activite{
+    #Activite{
         margin-top: 80px;
     }
-    .Activites{
+    .Activite{
         flex-direction: column;
     }
     #Activite span {
         flex-direction: column;
 
     }
+    .Activites{
+        flex-direction: column;
+    }
     .Activite-Carte{
         height: 199px;
+        width: 100%;
     }
     .Activite-Carte img{
         height: 70%;
     }
     .Activite-Carte figcaption{
+        margin-top: 10px;
         height: 10%;
     }
   
